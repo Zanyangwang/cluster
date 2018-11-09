@@ -1,5 +1,7 @@
 # SQLの記述
 
+[データベースの設計と開発](http://si.comp.ae.keio.ac.jp/web_app_dev_material/simple/dev_db/index.html)
+
 ここでは、PhpMyAdminを利用して実際にSQLを書きながら基本的なSQLを説明していきます。
 
 ## 準備
