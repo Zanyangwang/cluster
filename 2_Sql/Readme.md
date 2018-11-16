@@ -67,15 +67,6 @@ INSERT INTO TODO_USER(ID, NAME, PASSWORD)
 VALUES(2, 'テスト2', 'TEST2PASSWORD')
 ```
 
-## INSERT
-
-SQLタブで以下のSQLを書いて、実行ボタンを押してください。
-
-```sql
-INSERT INTO TODO_USER(ID, NAME, PASSWORD)
-VALUES(1, 'テスト1', 'TEST1PASSWORD')
-```
-
 ## UPDATE
 
 SQLタブで以下のSQLを書いて、実行ボタンを押してください。
