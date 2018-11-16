@@ -1,0 +1,18 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE TABLE `todo_item` (
+  `ID` int(11) NOT NULL,
+  `NAME` varchar(50) NOT NULL,
+  `USER` varchar(50) NOT NULL,
+  `EXPIRE_DATE` date NOT NULL,
+  `FINISHED_DATE` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ALTER TABLE `todo_item`
+  ADD PRIMARY KEY (`ID`);
+
+
+ALTER TABLE `todo_item`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
